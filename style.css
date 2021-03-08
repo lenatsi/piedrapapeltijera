@@ -44,19 +44,3 @@
       100%{background-position:0% 82%}
   }
 
-
-
-
-
-#piedra:before{
-
-    background-image : url();
-}
-#papel:before{
-
-    background-image : url();
-}
-#tijera:before{
-
-    background-image : url();
-}
