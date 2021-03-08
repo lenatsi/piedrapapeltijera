@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/e391ce7786.js" crossorigin="anonymous"></script>
+    <script src="scripts.js" defer></script>
+    <title>Piedra, papel, tijera</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-md-center" id ="titulo">
+            <h1>Piedra, papel, tijera</h1>
+        </div>
+        <div class="row justify-content-md-center">
+            <h2 id="suerte">¡Prueba suerte!</h2>
+        </div> 
+        <div class="row">
+            <div class="col-4  columna">
+                <div class="row justify-content-md-center">
+                    <h2 id="puntuacionTu" value="0">Tu: 0</h2>
+                </div>
+                <div class="row justify-content-md-center" id="imgTu">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
+                
+            </div>
+            <div class="col-4 offset-4 columna">
+                <div class="row justify-content-md-center">
+                    <h2 id ="puntuacionMaquina" value="0">Máquina: 0</h2>
+                </div>
+                <div class="row justify-content-md-center" id="imgMaquina">
+                    <i class="fas fa-hand-scissors" ></i>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <h2 id="selecciona">Selecciona una opción!</h2>
+        </div>
+        <div class="row justify-content-md-center">
+                <div class="btn-group" role="group" id="grupoBoton">
+                <button type="button" class="btn btn-secondary fas fa-hand-rock" id="rock"></button>
+                <button type="button" class="btn btn-secondary fas fa-hand-paper" id="paper"></button>
+                <button type="button" class="btn btn-secondary fas fa-hand-scissors"id="scissors"></button>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
